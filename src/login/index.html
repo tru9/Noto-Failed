@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="designs.css">
+</head>
+
+<body>
+    <script src="login.js" defer type="text/javascript"></script>
+
+    <div class=" contents">
+        <div class="nav">
+            <div class="left">
+                <div class="version">
+                    <div>V1</div>
+                </div>
+            </div>
+            <div class="right ">
+                <div class="close">
+                    <img src="../assets/close.png" onclick="window.close(); app.quit()" alt="close">
+                </div>
+            </div>
+        </div>
+
+
+            <div class="logo">
+                <img src="../assets/N.png" alt="LOGO">
+            </div>
+
+            <div class="input">
+                <div class="data">
+                    <label  for="cookie">Cookie</label>
+                    <input class="text" id="cookie" type="password" required  onpaste="return true;" >
+                </div>
+            </div>
+
+
+            <div class="border">
+                <div onclick="validate()">LOGIN</div>
+            </div>
+
+
+            <div class="footer">
+                <div class="links">
+                    <a onclick="help()">HELP</a>
+                </div>
+            </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    -webkit-app-region: drag;
+    display: flex;
+    overflow: hidden;
+    width: 326px;
+    height: 142px;
+}
+
+.contents {
+    width: 325px;
+    height: 142px;
+
+    background-image: url("../../assets/shortPatt.png");
+    background-color: #2dcc70;
+
+    border-radius: 5px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.nav > .left img {
+    height: 30px;
+    margin-left: 8px;
+}
+
+.nav > .middle h1 {
+    color: white;
+
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+
+    margin-right: 85px;
+}
+
+.warning {
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+
+
+.warning #action {
+    font-size: 15px;
+    margin: 5px auto;
+}
+
+.warning #notice {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px auto;
+}
+
+.buttons {
+    -webkit-app-region: no-drag;
+
+    display: flex;
+    justify-content: center;
+}
+
+::selection {
+    background-color: transparent;
+}
+
+.buttons div {
+    margin: 15px;
+    border-radius: 5px;
+    background-color: white;
+
+    height: 26px;
+    width: 60px;
+
+    color: #2dcc70;
+
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+
+    text-align: center;
+    line-height: 29.5px;
+    cursor: pointer;
+
+
+}
+
+

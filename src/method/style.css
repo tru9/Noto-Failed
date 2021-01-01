@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-app-region: drag;
+    overflow: hidden;
+    display: flex;
+    width: 325px;
+    height: 386px;
+}
+
+::selection {
+    background-color: transparent;
+}
+
+.contents {
+    -wekkit-app-region : drag;
+
+    background-image: url("../assets/shortPatt.png");
+    background-color: #2dcc70;
+    border-radius: 10px;
+
+    height: 386px;
+    width: 325px;
+}
+
+.nav  {
+    -webkit-app-region : no-drag;
+
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.nav > .left img {
+    height: 27px;
+}
+
+.nav > .right img {
+}
+
+.nav > .right img:hover {
+    cursor: pointer;
+}
+
+.nav > .middle {
+    color : white;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+
+    margin: 20px auto 0;
+}
+
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+
+    border-radius: 50px;
+}
+
+.profile img {
+    border-radius: 100px;
+    height: 90px;
+    width: auto;
+
+    margin: 0 auto 0 5px;
+}
+
+.border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+
+    width: 190px;
+    height: 8px;
+    border-radius: 75px;
+
+    margin: 20px auto;
+}
+
+.buttons {
+    cursor: pointer;
+
+    -webkit-app-region : no-drag;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+.buttons > .first {
+
+    background-color: white;
+
+    width: 128px;
+    height: 46px;
+    border-radius: 5px;
+}
+.buttons > .first #text {
+    float : right;
+    color: #2dcc70;
+
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+
+    padding: 11px 11px 6px 6px;
+}
+
+.buttons > .first img {
+    float : left;
+    height: 30px;
+    width: auto;
+
+    padding-top: 7px;
+    padding-left: 4px;
+}
+
+.buttons > .second {
+    background-color: white;
+
+    width: 115px;
+    height: 46px;border-radius: 5px;
+
+    margin: 21px auto;
+}
+
+.buttons > .second img {
+    float : left;
+    height: 40px;
+    width: auto;
+}
+
+.buttons > .second #bulk {
+    float: right;
+    color: #2dcc70;
+
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+
+    padding-top: 11px;
+    padding-right: 11px;
+}

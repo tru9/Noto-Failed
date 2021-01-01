@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<script src="script.js" defer></script>
+
+<div class="contents">
+    <div class="nav">
+     <div class="left">
+         <img src="../assets/N.png">
+     </div>
+        <div class="middle" id="middle">
+
+        </div>
+        <div class="right">
+            <img src="../assets/close.png" onclick="window.close(); app.quit()">
+        </div>
+    </div>
+
+    <div class="profile">
+        <div class="box">
+           <img src="../assets/default.png" id="profile">
+        </div>
+    </div>
+
+    <div class="border"></div>
+
+    <div class="buttons">
+        <div class="first">
+            <div class="items" onclick="clearUsers()">
+                <div id="text">CLEAR</div>
+                <img src="../assets/trash.png">
+            </div>
+        </div>
+        <div class="second">
+            <div class="items" onclick="bulk()">
+                <div id="bulk">BULK</div>
+                <img src="../assets/bomb.png">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
